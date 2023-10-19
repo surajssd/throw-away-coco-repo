@@ -2,53 +2,61 @@
 title: Goldydocs
 ---
 
-{{< blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" >}}
+{{< blocks/cover title="Welcome to Confidential Containers!" image_anchor="top" height="full" >}}
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
   Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/surajssd/confidentialcontainers.org">
   Download <i class="fab fa-github ms-2 "></i>
 </a>
-<p class="lead mt-5">Porridge temperature assessment &mdash; in the cloud!</p>
+<p class="lead mt-5">Confidential Computing for &mdash; Kubernetes!</p>
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
-{{% blocks/lead color="primary" %}}
-Goldydocs provides a single web UI providing visibility into porridge
-temperature, chair size, and bed softness metrics! You can even find out who's
-been eating **your** porridge.
+<!-- Note: The content here is mostly copied / adapted from: https://github.com/confidential-containers/.github/blob/main/profile/README.md. This page shows up when one goes to: https://github.com/confidential-containers/ -->
 
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
+{{% blocks/lead color="primary" %}}
+Confidential Containers is an open source community working to enable cloud native confidential computing by leveraging [Trusted Execution Environments](https://en.wikipedia.org/wiki/Trusted_execution_environment) to protect containers and data.
+
 {{% /blocks/lead %}}
 
 {{% blocks/section color="dark" type="row" %}}
-{{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
-The Goldydocs UI now shows chair size metrics by default.
+
+Goals
+{.h1 .text-center}
+
+{{% blocks/feature icon="fa-microchip" title="Multiple TEEs" %}}
+Support for multiple Trusted Execution Environments (TEEs) and hardware platforms
 
 Please follow this space for updates!
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="<https://github.com/surajssd/confidentialcontainers.org>" %}}
-We do a [Pull Request](https://github.com/surajssd/confidentialcontainers.org/pulls) contributions workflow on **GitHub**. New users are always welcome!
+{{% blocks/feature icon="fa-cubes" title="Containers" %}}
+Transparent deployment of unmodified containers
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="<https://twitter.com/docsydocs>" %}}
-For announcement of latest features etc.
+{{% blocks/feature icon="fa-cloud" title="Cloud Service Providers (CSP)" %}}
+A trust model which separates CSPs from guest applications
 {{% /blocks/feature %}}
 
-{{% /blocks/section %}}
-
-{{% blocks/section %}}
-This is the second section
-{.h1 .text-center}
 {{% /blocks/section %}}
 
 {{% blocks/section type="row" %}}
 
-{{% blocks/feature icon="fab fa-app-store-ios" title="Download **from AppStore**" %}}
-Get the Goldydocs app!
+{{% blocks/feature icon="fa-shield" title="Application Security" %}}
+Allow cloud native application owners to enforce application security requirements
 {{% /blocks/feature %}}
+
+{{% blocks/feature icon="fa-key" title="Privilege" %}}
+Least privilege principles for the Kubernetes Cluster administration capabilities which impact delivering Confidential Computing for guest application or data inside the TEE.
+{{% /blocks/feature %}}
+
+{{% /blocks/section %}}
+
+{{% blocks/section type="row" %}}
+
+Community
+{.h1 .text-center}
 
 {{% blocks/feature icon="fab fa-github" title="Contributions welcome!"
     url="<https://github.com/surajssd/confidentialcontainers.org>" %}}
@@ -56,14 +64,20 @@ We do a [Pull Request](https://github.com/surajssd/confidentialcontainers.org/pu
 contributions workflow on **GitHub**. New users are always welcome!
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!"
-    url="<https://twitter.com/GoHugoIO>" %}}
-For announcement of latest features etc.
+{{% blocks/feature icon="fab fa-slack" title="We are on CNCF Slack!" url="<https://slack.cncf.io>" %}}
+Join channel #confidential-containers by getting invitation for the [CNCF slack](https://slack.cncf.io).
 {{% /blocks/feature %}}
 
-{{% /blocks/section %}}
+{{% blocks/feature icon="fa-video-camera" title="Weekly Meetings" url="<https://docs.google.com/document/d/1E3GLCzNgrcigUlgWAZYlgqNTdVwiMwCRTJ0QnJhLZGA/>" %}}
+Check out our previous meetings and join our future ones.
+{{% /blocks/feature %}}
 
-{{% blocks/section %}}
-This is the another section
-{.h1 .text-center}
+{{% blocks/feature icon="fa-users" title="Community Guidelines" url="<https://github.com/confidential-containers/confidential-containers>" %}}
+How to contribute, style guides, governance...
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fa-file" title="Code of Conduct" url="<https://github.com/cncf/foundation/blob/master/code-of-conduct.md>" %}}
+We follow the CNCF Code of Conduct.
+{{% /blocks/feature %}}
+
 {{% /blocks/section %}}

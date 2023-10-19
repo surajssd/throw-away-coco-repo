@@ -15,6 +15,7 @@ languages:
       description: Documentation for Confidential Containers
 
 enableRobotsTXT: true
+enableEmoji: true
 
 # Will give values to .Lastmod etc.
 enableGitInfo: true
@@ -49,7 +50,7 @@ markup:
       unsafe: true
   highlight:
     # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
-    style: tango
+    style: friendly
     # Uncomment if you want your chosen highlight style used for code blocks without a specified language
     # guessSyntax: true
 
@@ -175,11 +176,11 @@ params:
     #   desc: Chat with other project developers
     developer:
     - name: GitHub
-      url: 'https://github.com/confidential-containers'
+      url: https://github.com/confidential-containers
       icon: fab fa-github
       desc: Development takes place here!
     - name: Slack
-      url: 'https://communityinviter.com/apps/cloud-native/cncf'
+      url: https://communityinviter.com/apps/cloud-native/cncf
       icon: fab fa-slack
       desc: Chat with other project developers
 
